@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    max-width: 200px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+img {
+    animation: spin 1s linear;
+}
+body {
+    transition: background-color 0.5s; /* Добавляем плавный переход для смены цвета фона */
+}
+@media screen and (max-width: 600px) {
+    /* Стили для мобильных устройств */
+}
